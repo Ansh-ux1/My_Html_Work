@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table , th,td{
+        border: 1px solid black;
+        height:40px;
+        width: 400px;
+        text-align: center;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+             <th>Name</th> 
+             <th>Age</th> 
+             <th>Grade </th>
+             <th>Email</th>
+            </tr>
+
+            <tr>
+                 <td>Ali</td>
+                  <td>16</td> 
+                  <td>A</td>
+                  <td>ali@gmail.com</td>
+            </tr>
+            <tr>
+                 <td>Ahmed</td>
+                  <td>19</td> 
+                  <td>A+</td>
+                  <td>Ahmed@gmail.com</td>
+            </tr>
+            <tr>
+                 <td>Hussnain</td>
+                  <td>15</td> 
+                  <td>B+</td>
+                  <td>hussnain@gmail.com</td>
+            </tr>
+            <tr>
+                 <td>Gaffar</td>
+                  <td>18</td> 
+                  <td>C</td>
+                  <td>gaffar@gmail.com</td>
+            </tr>
+
+    </table>
+</table>
+</body>
+</html>
