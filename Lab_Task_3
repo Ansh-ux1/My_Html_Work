@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #main{
+           
+            height:300px;
+            width:300px;
+            box-shadow: 5px 5px 5px grey;
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+
+        }
+        #text{
+           
+            margin-top: -90px;
+        }
+        button{
+            height: 40px;
+            width:100px;
+        }
+
+        img{
+            height: auto;
+            width:300px;
+            margin-top: -50px;
+        }
+        button:hover{
+            background-color: lightgreen;
+            transition: 1s;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id = "main">
+        <img src="images-removebg-preview.png" alt="CHOC">
+        <div id = "text">
+             <b>Feastables</b>
+        <p>Healthy Choclate</p>
+        <button>Buy Now Rs.2,000</button>
+
+        </div>
+       
+
+    </div>
+</body>
+</html>
