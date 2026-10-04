@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div{
+            background-color: rgb(230, 238, 238);
+            height: 200px;
+            width: 450px;
+            box-shadow: 5px 5px 5px  grey;
+
+        }
+        #user{
+            height:50px;
+            width:200px;
+            margin-top: 50px;
+            margin-left: 5px;
+        }
+        button {
+        margin-top: 10px;
+        width: 80px;
+        height: 30px;;
+        display: block;
+        margin-left: 200px;
+      }
+      button:hover{
+        background-color: lightgreen;
+        font-family:'Courier New', Courier, monospace;
+        transition: 1s;
+      }
+
+        
+    </style>
+
+</head>
+<body>
+    <div>
+       
+       <input type="text" id = "user" placeholder="Enter Username">
+       <input type="text" id = "user" placeholder="Enter Password">
+       <button>Submit</button>
+       <button>Forgot</button>
+       
+    </div>
+    
+</body>
+</html>
