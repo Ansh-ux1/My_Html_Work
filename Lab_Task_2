@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    *{
+        padding: 0px;
+        margin:0px
+    }
+    ul{
+        background:rgb(109, 221, 238);
+        list-style: none;
+        color:rgb(35, 68, 97);
+        display: flex;
+        justify-content: space-evenly;
+        height:80px;
+        line-height: 70px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+
+li:hover{
+    font-style: italic;
+    text-decoration: underline;
+}    
+</style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
