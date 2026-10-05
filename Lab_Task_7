@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            margin-top: 5px;
+        }
+
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #one {
+            background: #b0f2b2;
+            height: 350px;
+            border: 2px solid black;
+        }
+
+        #two {
+            background-color: aquamarine;
+            height: 350px;
+            border: 2px solid black;
+        }
+
+        #three {
+            background-color: beige;
+            height: 350px;
+            border: 2px solid black;
+        }
+
+        #four {
+            background-color: rgb(140, 182, 182);
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            background: #ace9ff;
+            border: 2px solid black;
+        }
+
+        #two img {
+            height: 180px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        button {
+            height: 50px;
+            width: 120px;
+            font-size: 17px;
+            background-color: lightcyan;
+            border-radius: 10px;
+            margin-top: 100px;
+
+        }
+
+        h1 {
+            padding-top: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            padding-top: 10px;
+        }
+
+        ul li {
+            list-style: none;
+            font-size: 30px;
+            margin-top: 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: -20px;
+        }
+
+        input,
+        textarea {
+            height: 40px;
+            width: 400px;
+            font-size: 20px;
+        }
+
+        #four button {
+            margin-top: -10px;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+    <div id="one">
+        <h1>Welcome to Our Website</h1>
+        <p>We provide the best solutions for your business.</p> <button>Get Started</button>
+
+    </div>
+    <div id="two">
+        <h1>About us</h1>
+        <p> We are a professional team<br> dedicated to delivering quality services andcustomer satisfaction. </p>
+        <img src="Image.jpg">
+
+
+    </div>
+    <div id="three">
+        <h1>Our Services</h1>
+        <ul>
+            <li>Web Design</li>
+            <li>Web Development</li>
+            <li>SEO Services</li>
+            <li>Digital Marketing</li>
+        </ul>
+
+    </div>
+    <div id="four">
+        <h1>Contact</h1>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input placeholder="Your Message"> </input>
+        <button type="submit">Send Message</button>
+
+    </div>
+
+
+
+</body>
+
+</html>
